@@ -5,4 +5,5 @@ function clickHandler(e) {
 
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('btn').addEventListener('click', clickHandler);
+    document.getElementById('textarea').focus();
 });
